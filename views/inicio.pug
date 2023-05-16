@@ -1,0 +1,34 @@
+extends ./layout/index 
+block slider
+	.slider
+		h1 Río de Janeiro 
+		em aventura
+		
+block contenido
+
+	main.container.mt-5 
+		h2.text-center.mb-5 Sobre Nosotros 
+		.row.mb-5 
+			.col-md-6 
+				p Sed vehicula lacus in blandit varius. Donec vitae mollis mi. Proin auctor sapien tellus. Etiam magna nisi, molestie nec orci sit amet, euismod pharetra elit. 
+ 
+				p Nunc sollicitudin dignissim feugiat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent vitae ultricies magna. Morbi viverra massa urna. Phasellus vitae tincidunt sem. Ut nibh tellus, tempor a aliquam sit amet, semper at lectus.
+
+			.col-md-6 
+				img(src="/img/inicio_nosotros.jpg", class="img-fluid")
+
+		include ./layout/block-viajes
+
+	.descuento
+		.container 
+			.row 
+				.col-md-6 
+					.contenido 
+						h3 5% de descuento 
+						p.titulo Viaje a Canada 
+						p.fecha 20 de Junio - 27 de Junio
+						p.precio $2500 USD
+
+	.container
+		h2.mt-5.text-center Testimonios 
+		include ./layout/block-testimonios

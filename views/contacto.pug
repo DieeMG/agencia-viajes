@@ -1,0 +1,29 @@
+extends ./layout/index 
+block contenido
+	main.container.mt-5 
+		.row
+			.col-md-5 
+				img(src="img/nosotros.jpg", alt="Nosotros", class="img-fluid")
+			.col-md-7
+				h1 #{pagina}
+				blockquote Cras varius lectus gravida augue tristique, vitae ultrices orci feugiat. Morbi bibendum commodo ante et tristique. Duis consectetur aliquam orci, quis euismod tellus rhoncus vitae. 
+				
+				p Phasellus ut porta dolor, blandit eleifend enim. Sed condimentum vehicula velit, quis efficitur magna sagittis non. Sed semper molestie velit, id pharetra libero facilisis nec. Sed laoreet nisi vestibulum turpis commodo, a vulputate ex pretium. 
+				
+				p Duis aliquet eros quis dolor tristique, sit amet auctor velit vulputate. Sed et ipsum consectetur, pulvinar lectus nec, accumsan erat. Suspendisse potenti. Praesent eu risus placerat, condimentum dui sed, scelerisque ex. Proin tempus tincidunt massa id consequat. Etiam quis ante ac mauris rutrum ultricies et vel orci. Vestibulum a rutrum nibh.
+	
+	.listado-iconos
+		.container.my-5.py-5.text-center
+			.row
+				.col-md-4
+					img(src="/img/icono_seguridad.svg", alt="Seguridad", class="img-fluid mb-4")
+					h2.mb-4 Seguridad 
+					p Etiam quis ante ac mauris rutrum ultricies et vel orci. Vestibulum a rutrum nibh.
+				.col-md-4
+					img(src="/img/icono_destinos.svg", alt="Mejores Destinos", class="img-fluid mb-4")
+					h2.mb-4 Mejores Destinos 
+					p Etiam quis ante ac mauris rutrum ultricies et vel orci. Vestibulum a rutrum nibh.
+				.col-md-4
+					img(src="/img/icono_precios.svg", alt="Los Mejores Precios", class="img-fluid mb-4")
+					h2.mb-4 Los Mejores Precios 
+					p Etiam quis ante ac mauris rutrum ultricies et vel orci. Vestibulum a rutrum nibh.
